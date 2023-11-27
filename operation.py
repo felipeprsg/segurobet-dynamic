@@ -1,7 +1,7 @@
 import aiohttp
 
 
-API_URL = "http://localhost:3001"
+API_URL = "http://octopus-app-3gdu5.ondigitalocean.app"
 
 
 async def send_signal(game: str, signal: str, signal_type: str):
