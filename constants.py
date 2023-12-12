@@ -1,5 +1,5 @@
 groups = {
-    -1001854306160: "roleta brasileira",
+    -1001808373335: "roleta brasileira",
     -1002050121356: "spaceman",
     -1001886218722: "aviator",
 }

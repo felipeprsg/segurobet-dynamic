@@ -6,11 +6,11 @@ from operation import send_signal
 def roletaBrasileira(msg: str):
     lines = msg.splitlines()
 
-    lines = [line for line in lines if "Roleta" not in line]
+    lines = [line for line in lines if "corretora" not in line]
 
     msg = '\n'.join(lines).replace("*", "")
 
-    if "ENTRADA CONFIRMADA" in msg:
+    if "Entrada confirmada" in msg:
         return "signal", msg
 
     return "message", msg
